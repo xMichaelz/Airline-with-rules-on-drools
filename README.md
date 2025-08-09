@@ -1,4 +1,8 @@
 # Airline-with-rules-on-drools
+# Versions
+Java 17
+Maven 3.9.9
+Drools 7.74.1.Final
 
 A Spring Boot application that uses the Drools rule engine to evaluate airline passengers based on their profile, flight details, and luggage, applying automated business rules such as seat upgrades, VIP lounge access, luggage restrictions, discounts, and priority check-in; exposes a single REST API endpoint (POST /evaluate) that processes input data and returns the evaluation results according to the 10 rules defined in credit_rules.drl.
 
