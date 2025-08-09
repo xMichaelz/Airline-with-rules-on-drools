@@ -6,7 +6,7 @@ An Example Use Case are:
 	•	Upgrade Platinum members to business class if the flight is delayed more than 60 minutes.
 	•	Deny upgrades for overweight luggage (> 23kg).
 	•	Grant priority check-in for seniors (65+).
-
+#
 The rules are:
  	1.	Upgrade to business class if the passenger has Gold or Platinum status and the flight is delayed by more than 60 minutes.
 Uses two objects in the condition: Passenger and Flight, since both factors need to be validated. Updates both the Passenger and the EvaluationResult to reflect the change in the response.
